@@ -1,0 +1,26 @@
+{
+  "name": "site-preview-capture",
+  "version": "1.0.0",
+  "description": "Pengambil tangkapan layar website multi-perangkat presisi tinggi menggunakan Google Chrome lokal",
+  "main": "capture.js",
+  "bin": {
+    "site-preview": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "screenshot",
+    "puppeteer",
+    "retina",
+    "mockup",
+    "preview"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "puppeteer-core": "^25.16.0"
+  }
+}
